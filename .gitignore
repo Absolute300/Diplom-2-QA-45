@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test and build artifacts
+.coverage
+.pytest_cache/
+htmlcov/
+*.log
+/test-reports/
+/allure-results/
+/report.html
+
+# Configuration files
+*.env
+.env.local
+secrets.ini
+
+# pytest config
+pytest.ini
